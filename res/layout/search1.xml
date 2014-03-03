@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/search2_background_grey"
+    android:orientation="vertical"
+    android:textAlignment="center" >
+    
+     <LinearLayout
+         android:id="@+id/targetPlaceLayout"
+         android:layout_width="fill_parent"
+         android:layout_height="50dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="10dp"
+         
+         android:gravity="left|center_vertical"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/targetPlaceSelect"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:background="@drawable/btn_selector"
+             android:clickable="true"
+             android:gravity="center"
+             android:text="@string/place"
+             android:textColor="@color/title_text_color"
+             android:textSize="16sp" />
+
+         <EditText
+             android:id="@+id/placeEditText"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:background="@drawable/box"
+             android:ellipsize="end"
+             android:hint="@string/inputplace"
+             android:singleLine="true"
+             android:textColor="@color/input_text_color"
+             android:textColorHint="@color/hint_color"
+             android:textSize="17sp" />
+
+         <TextView
+             android:id="@+id/clear_place"
+             android:layout_width="34dp"
+             android:layout_height="34dp"
+             android:layout_marginRight="15dp"
+             android:background="@drawable/clear_btn_selector"
+             android:clickable="true"
+             android:visibility="gone" />
+
+     </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/timeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/search2_background_grey"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/timeLabelInSearch1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/title_blue"
+            android:gravity="center"
+            android:text="@string/time"
+            android:textColor="@color/title_text_color"
+            android:textSize="16sp" />
+
+	    <Spinner
+	      android:id="@+id/SpTime"
+	      android:layout_width="match_parent"
+	      android:layout_height="fill_parent"
+	      android:background="@drawable/box"
+	      android:entries="@array/time" />	    
+	</LinearLayout>
+    
+	<TextView 
+		   android:id="@+id/search1StartSearch"
+		   android:layout_width="fill_parent"
+		   android:layout_height="38dp"
+		   android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+		   android:layout_marginTop="10dp"
+		   android:textColor="@color/title_text_color"
+		   android:background="@drawable/btn_selector"
+		   android:gravity="center"
+		   android:textSize="16sp"
+		   android:text="@string/lookup"
+		   android:clickable="true"/>    
+	
+  <LinearLayout       
+	    android:id="@+id/historyListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/search2_background_grey"
+        android:orientation="vertical">
+
+		    <TextView
+		        android:id="@+id/search1HistoryListTitle"
+		        android:layout_width="match_parent"
+		        android:layout_height="38dp"
+		        android:gravity="center"
+		        android:text="@string/sitehistory"
+		        android:textColor="@android:color/black"
+		        android:textSize="16sp" />
+	    	<ListView
+		        android:id="@+id/search1HistoryList"
+		        android:layout_width="fill_parent"
+		        android:layout_height="match_parent"
+		        android:background="@color/search2_background_grey"
+		        android:scrollbars="none" >
+	    	</ListView>        
+	</LinearLayout>
+    
+</LinearLayout>

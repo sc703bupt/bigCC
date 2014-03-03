@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BIXIGO</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="searchResult">预测结果</string>
+    <string name="routeResult">路线查询结果</string>
+    <string name="choosesiteResult">选择地点</string>
+    <string name="ridingRecordTitle">行车记录</string>
+    <string name="setting">设置</string>
+    <string name="gotoridingRecord">查看行车记录</string>
+    <string name="logout">退出登录</string>
+    <string name="username">用户名:Admin</string>
+    <string name="userid">用户ID:12345678</string>
+    <string name="bikeid">正在使用No.1自行车</string>
+    <string name="startStationText">起点车站:</string>
+    <string name="endStationText">终点车站:</string>
+    <string name="totalMilesText">全程:</string>
+    <string name="averageSpeedText">平均速度:</string>
+    <string name="timeCostText">耗时:</string>
+    <string name="settingTitle">设置</string>
+    <string name="GPSTitle">GPS</string>
+	<string name="enableGPS">开启GPS</string>
+	<string name="enableGPSRecord">允许记录我的GPS数据</string>
+	<string name="bindwithSocailNetworkTitle">社交网络绑定</string>
+	<string name="twitter">与twitter账号绑定</string>
+	<string name="facebook">与facebook账号绑定</string>
+	<string name="google">与google账号绑定</string>
+	<string name="routePreferTitle">路线偏好</string>
+	<string name="sceneryRoute">观光线路</string>
+	<string name="fastestRoute">最快线路</string>
+	<string name="sceneryInfoTitle">地点信息</string>
+	<string name="description1">名称：Ville-de-La Flèche公园\n地址：Rue du Champ de Mars,Montreal\n介绍：Ville-de-La Flèche公园位于Champs de Mars公园的西北角，公园的建成是为了纪念杰罗姆乐罗耶，1993年8月25日建成。公园内环境优美，适宜旅行者观光和休息。\n预计到达时间：15分钟</string>
+	<string name="description2">名称：乔治爵士艾蒂安卡地亚国家历史遗址\n地址：458 Rue Notre-Dame Est,Montreal\n介绍：乔治爵士圣艾蒂安卡地亚国家历史遗址，是为了纪念他的一生和所取得的成就而建立的一座历史悠久的博物馆，它与1964年被指定为加拿大国家历史遗。\n预计到达时间：17分钟</string>
+	<string name="description3">名称：Marguerite Bourgeoys博物馆\n地址：400 Rue Saint Paul Est,Montreal\n介绍：1998年5月24日开业，Marguerite Bourgeoys博物馆坐落在历史悠久的旧蒙特利尔中心圣劳伦斯河岸边。博物馆展出蒙特利尔的圣母院创始人Marguerite Bourgeoys相关展品以彰显她的成就。\n预计到达时间：23分钟</string>
+	<string name="description4">名称：老港酒店\n地址：97 Rue de la Commune Est,Montreal\n介绍：老港酒店一是家4星级酒店，坐落在历史悠久的旧蒙特利尔。该酒店现代而经典的设计使该酒店成为能为游客提供豪华客房的精品酒店。\n预计到达时间：30分钟</string>
+	<string name="description5">名称：杜尔加纪念品商店\n地址：383 Rue Saint Paul Est,Montreal\n介绍：一家售卖极具当地风格纪念品的商店\n预计到达时间：25分钟</string>
+	
+    <string name="nearby">附近</string>
+    <string name="search">预测</string>
+    <string name="lookup">查询</string>
+    <string name="route">路线</string>
+    <string name="user">更多</string>
+    <string name="submit">确定</string>
+    
+    <string name="account">我的账号</string>
+    <string name="user1">Smile</string>
+    <string name="record">借车记录</string>
+    
+    <string name="date">日期</string>
+    <string name="time">时间</string>
+    <string name="place">地点</string>
+    <string name="inputplace">请输入地点</string>
+    <string name="startplace">起点</string>
+    <string name="start_hint">请输入起点</string>
+    <string name="endplace">终点</string>
+    <string name="end_hint">请输入终点</string>
+    <string name="sitehistory">访问过的地点</string>
+    
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    
+     <string name="dian">.</string>
+     <string name="maohao">:</string>    
+    
+     <string name="rent">可借车辆</string>
+     <string name="left">剩余车位</string>
+
+</resources>

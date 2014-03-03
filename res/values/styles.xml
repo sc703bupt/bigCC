@@ -1,0 +1,69 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:textColorHighlight">#ffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:drawablePadding">-1dp</item>
+    </style>
+    
+    <style name="BottomMenu" parent="style/TextStyle">
+        <item name="android:background">@drawable/item_background_</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:drawablePadding">-5dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:textColor">@drawable/select_color</item>       
+    </style>
+    
+    <style name="Text">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="main_tab_bottom">        
+	    <item name="android:background">@drawable/home_btn_bg</item>
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">@dimen/bottom_menu_height</item>
+	    <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+	    <item name="android:layout_gravity">center_vertical</item>
+	    <item name="android:layout_weight">1</item>
+	    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+	    <item name="android:textColor">@drawable/select_color</item>
+	    <item name="android:textSize">12dip</item>        
+	    <item name="android:ellipsize">marquee</item>   
+	    <item name="android:button">@null</item>
+	    <item name="android:textStyle">bold</item>  
+	    <item name="android:gravity">center_horizontal</item>
+	    <item name="android:singleLine">true</item>
+    </style>
+    
+    
+    
+    
+</resources>

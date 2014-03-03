@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="tabwidget_background_grey">#46D9D9D9</color>
+	<color name="search2_background_grey">#D9D9D9</color>
+	<color name="bottom_text_color">#A6A6A6</color>
+	<color name="bottom_text_color_select">#4F81BD</color>
+	<color name="title_text_color">#FFFFFF</color>
+	<color name="input_text_color">#000000</color>
+	<color name="hint_color">#000000</color>
+	
+	<color name="tab_select">#4F81BD</color>
+	<color name="tab_unselect">#A6A6A6</color>
+	<color name="gray">#c5c9ce</color>
+	<color name="jigsaw_choose">#99881558</color>
+	<color name="jigsaw_edit">#994EBBFF</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="jigsaw_free_frame">#FF17B2F5</color>
+	
+	<color name="title_text_color">#e6e6e6</color>
+
+	<color name="btn_text_color">#ffffff</color>
+	    
+	<color name="degree_bar_color">#b1b1b1</color>
+	<color name="flip_text_color">#b1b1b1</color>
+	<color name="tab_top_text_color">#b1b1b1</color>
+	<color name="share_send_bg_color">#e4e4e4</color>
+	
+	<color name="setting_text_color">#6f6f6f</color>
+	
+    <color name="material_normal">#6f6f6f</color>
+	<color name="material_done">#a0a2a2</color>
+  	<color name="material_downloading">#81cded</color>
+	<color name="material_fail">#ffffff</color>
+	
+	<color name="setting_color_unselect">#35494a</color>
+	<color name="setting_color_select">#ffffff</color>
+	
+  	<color name="half_transparent">#80000000</color>
+  	<color name="dark_blue">#ff333333</color>
+  	
+  	<color name="tip_text_color">#333333</color>
+  	<color name="edit_text_color">#333333</color>
+	<color name="edit_hint_color">#dddddd</color>
+	<color name="edit_neting_color">#888888</color>
+	
+</resources>

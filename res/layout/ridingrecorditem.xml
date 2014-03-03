@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/search2_background_grey"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ridingRecordDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/startStationNameTitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="13sp"
+        	android:text="@string/startStationText"
+        	android:textColor="@android:color/black"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    	<TextView
+        	android:id="@+id/startStationName"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="13sp"
+        	android:textColor="@android:color/black"
+        	android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" >
+    	<TextView
+            android:id="@+id/endStationNameTitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="13sp"
+        	android:text="@string/endStationText"
+        	android:textColor="@android:color/black"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+	    <TextView
+	        android:id="@+id/endStationName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="13sp"
+	        android:textColor="@android:color/black"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" >
+	    <TextView
+            android:id="@+id/totalMilesTitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="13sp"
+        	android:text="@string/totalMilesText"
+        	android:textColor="@android:color/black"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+	    <TextView
+	        android:id="@+id/totalMiles"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="13sp"
+	        android:textColor="@android:color/black"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" >
+	   	<TextView
+            android:id="@+id/averageSpeedTitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="13sp"
+        	android:text="@string/averageSpeedText"
+        	android:textColor="@android:color/black"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+	    <TextView
+	        android:id="@+id/averageSpeed"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="13sp"
+	        android:textColor="@android:color/black"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" >
+	    <TextView
+            android:id="@+id/timeCostTitle"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="13sp"
+        	android:text="@string/timeCostText"
+        	android:textColor="@android:color/black"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+	    <TextView
+	        android:id="@+id/timeCost"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="13sp"
+	        android:textColor="@android:color/black"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+</LinearLayout>

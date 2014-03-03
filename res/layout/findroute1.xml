@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/search2_background_grey" 
+    android:textAlignment="center">
+    
+     <LinearLayout 
+	            android:id="@+id/startPlaceLayout"
+	            android:layout_width="fill_parent"
+	            android:layout_height="50dp"
+	            android:layout_marginLeft="10dp"
+         		android:layout_marginRight="10dp"
+         		android:layout_marginTop="10dp"
+         		android:background="@color/search2_background_grey"
+         		android:gravity="left|center_vertical"
+        		android:orientation="horizontal" >
+
+	      	  	<TextView
+	      	  	    android:id="@+id/startPlaceSelect"
+	      	  	    android:layout_width="50dp"
+	      	  	    android:layout_height="50dp"
+	      	  	    android:background="@drawable/btn_selector"
+	      	  	    android:clickable="true"
+             		android:gravity="center"
+	      	  	    android:text="@string/startplace"
+	      	  	    android:textColor="@color/title_text_color"
+	      	  	    android:textSize="16sp"/>
+
+	      	  	<EditText 
+	      	  	android:id="@+id/startPlaceEditText"
+	      	  	android:layout_width="fill_parent"
+	      	  	android:layout_height="fill_parent"
+	      	    android:textColor="@color/input_text_color"
+	      	  	android:textColorHint="@color/hint_color"
+	      	  	android:hint="@string/start_hint"
+	      	  	android:background="@drawable/box"
+	      	  	android:singleLine="true"
+	      	  	android:ellipsize="end"
+	      	  	android:textSize="17sp"/>
+	      	  	<TextView 
+	      	  	android:id="@+id/clear_startplace"
+	      	  	android:layout_width="34dp"
+	      	  	android:layout_height="34dp"
+	      	  	android:background="@drawable/clear_btn_selector"
+	      	  	android:layout_marginRight="15dp"
+             	android:clickable="true"
+             	android:visibility="gone" 
+	      	  	/>
+	  </LinearLayout>
+	  
+	  <LinearLayout 
+	      	    android:id="@+id/endPlaceLayout"
+	      	  	android:layout_width="fill_parent"
+	      	  	android:layout_height="50dp"
+	      	  	android:layout_marginLeft="10dp"
+        		android:layout_marginRight="10dp"
+       			android:layout_marginTop="10dp"
+	      	  	android:orientation="horizontal"
+	      	  	android:gravity="left|center_vertical"
+	      	  	android:background="@color/search2_background_grey">
+
+	      	  	<TextView
+	      	  	    android:id="@+id/endPlaceSelect"
+					android:layout_width="50dp"
+            		android:layout_height="50dp"
+            		android:background="@drawable/btn_selector"
+             		android:clickable="true"
+             		android:gravity="center"
+	      	  	    android:text="@string/endplace"
+	      	  	    android:textColor="@color/title_text_color"
+	      	  	    android:textSize="16sp"/>
+
+	      	  	<EditText 
+	      	  	android:id="@+id/endPlaceEditText"
+	      	  	android:layout_width="fill_parent"
+	      	  	android:layout_height="fill_parent"
+       	  	    android:hint="@string/end_hint"
+       	  	    android:singleLine="true"
+       	  	    android:ellipsize="end"
+	      	  	android:textColor="@color/input_text_color"
+	      	  	android:textColorHint="@color/hint_color"
+	      	  	android:background="@drawable/box"
+	      	  	android:textSize="17sp"/>
+	     	  	<TextView 
+	      	  	android:id="@+id/clear_endplace"
+	      	  	android:layout_width="34dp"
+	      	  	android:layout_height="34dp"
+	      	  	android:background="@drawable/clear_btn_selector"
+	      	  	android:layout_marginRight="15dp"
+	      	  	android:clickable="true"
+	      	  	android:visibility="gone"/>
+	</LinearLayout>
+   
+	<TextView 
+		android:id="@+id/findroute1StartSearch"
+		android:layout_width="fill_parent"
+		android:layout_height="38dp"
+		android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+		android:layout_marginTop="10dp"
+		android:textColor="@color/title_text_color"
+		android:background="@drawable/btn_selector"
+		android:gravity="center"
+		android:textSize="16sp"
+		android:text="@string/lookup"
+		android:clickable="true"/>
+ 	
+	  <LinearLayout       
+	    android:id="@+id/historyListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/search2_background_grey"
+        android:orientation="vertical">
+	      		        <!-- android:background="@drawable/title_blue"-->
+	    <TextView
+		        android:id="@+id/findroute1HistoryListTitle"
+		        android:layout_width="match_parent"
+		        android:layout_height="38dp"
+		        android:gravity="center"
+
+		        android:text="@string/sitehistory"
+		        android:textColor="@android:color/black"
+		        android:textSize="16sp" />
+	   	<ListView
+		        android:id="@+id/findroute1HistoryList"
+		        android:layout_width="fill_parent"
+		        android:layout_height="match_parent"
+		        android:background="@color/search2_background_grey"
+		        android:scrollbars="none" >
+	   	</ListView>  
+	  </LinearLayout>
+</LinearLayout>

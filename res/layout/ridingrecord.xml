@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/search2_background_grey"
+     >
+
+    <LinearLayout
+        android:id="@+id/ridingRecordTitleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+        
+        <TextView
+            android:id="@+id/ridingRecordBackButton"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/backbutton_selector"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/ridingRecordTitleText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/ridingRecordTitle"
+            android:background="@drawable/title_blue"
+            android:gravity="fill"
+            android:textColor="@color/title_text_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+	<LinearLayout       
+	    android:id="@+id/ridingRecordListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/search2_background_grey"
+        android:orientation="vertical"
+	    >
+	    <ListView
+	        android:id="@+id/ridingRecordList"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:background="@color/search2_background_grey"
+	        android:scrollbars="none" >
+	    </ListView>        
+	</LinearLayout>
+    
+</LinearLayout>

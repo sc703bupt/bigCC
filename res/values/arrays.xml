@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="look">
+        <item>排序方式：距离最近</item>
+        <item>排序方式：车辆最多</item>
+        <item>排序方式：空位最多</item>      
+    </string-array>
+    
+    <string-array name="time">
+        <item>5分钟后</item>
+        <item>10分钟后</item>
+        <item>30分钟后</item>
+        <item>1小时后</item>
+        <item>2小时后</item>
+    </string-array>
+</resources>
